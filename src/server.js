@@ -28,7 +28,7 @@ app.use((err, req, res, next) => {
     res.status(500).json({ error: 'Internal Server Error' });
     });
 
-// start the server on port 5000
-app.listen(5000, () => {
-  console.log('Server started on port 5000');
+// start the server on port 3001
+app.listen(3001, () => {
+  console.log('Server started on port 3001');
 });
